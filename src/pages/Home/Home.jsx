@@ -18,10 +18,12 @@ import 'swiper/css/navigation';
 
 // Import Swiper modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import LocationRecipe from '../locatinrecipe/LocationRecipe';
 
 const Home = () => {
   return (
-    <div className="w-full">
+    <div>
+       <div className="w-full">
       <Swiper
   
         spaceBetween={30}
@@ -47,6 +49,9 @@ const Home = () => {
       </Swiper>
       <h1 className='text-white absolute top-80 z-10 bottom-0 left-56 text-4xl '>hello main up to the games</h1>
 
+    </div>
+       <LocationRecipe></LocationRecipe>
+       
     </div>
   );
 };
