@@ -13,6 +13,7 @@ const LocationRecipe = () => {
 console.log(locations)
     return (
         <div>
+            <h1>Lorem ipsum dolor sit amet.</h1>
             { locations.map((location) => (
                 <div key={location.id}>
                     <h1 className='text-8xl text-red-700'>{location.details}</h1>
